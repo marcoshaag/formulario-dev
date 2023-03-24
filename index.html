@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Dev</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="registro.js"></script>
+</head>
+<body>
+    <div class="title">
+        <h1 class="teste">Cadastro</h1>
+    </div>
+    <form>
+        <div class="container-card">
+            <div class="caixa-texto">
+                <label for="name"><strong>Nome</strong></label>
+                <input 
+                type="text"
+                name="name"
+                id="name" 
+                placeholder="Digite seu nome">
+                <label for="apelido"><strong>Apelido</strong></label>
+                <input type="text" name="apelido"
+                id="apelido" 
+                placeholder="Como Gostaria de ser chamado?">
+                <label for="email"><strong>Informe seu email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+                <label for="Curso"><strong>Linguagem</strong></label>
+                <select name="curso" id="curso">
+                    <option value="java">Java</option>
+                    <option value="js">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                </select>
+                <button routerLink="/paginaregistro.html">Cadastrar</button>
+            </div>
+        </div>        
+    </form>
+    
+</body>
+</html>
