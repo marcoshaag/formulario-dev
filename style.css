@@ -7,7 +7,7 @@ body{
 }
 
 .title{
-    padding-top: 9% ;
+    padding-top: 5% ;
 
     
 }
@@ -51,10 +51,17 @@ body{
     background-color: azure;
     border-radius: 15px;
     padding: 5px;
+    margin-right: 70%;
 }
 
 button{
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 1vh;
+    border-radius: 20px;
+    border-color:cadetblue;
+    border-style:double;
+    background-color:aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
     
 }

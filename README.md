@@ -1,5 +1,5 @@
 
-<h1>Formulário básico em Html e Css</h1>
+<h1>Formulário básico em Html,Css e JavaScript</h1>
 
-<img src="tela.png" alt="tela">
-<p><strong>Meu projeto é ainda melhorar o cadastro e praticar O Js para fazer o Login</strong></p>
+<img src="tela.png" alt="tela"> <br>
+<p><strong>Tela de Cadastro simples que acessa outra página</strong></p>
