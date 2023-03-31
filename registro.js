@@ -5,7 +5,7 @@ function cadastro(){
 
     if(login > '' && nome > ''){
         alert('Sucesso');
-        location.href= "tela-registro.html";
+        location.href= "segunda-tela.html";
     }else{
         alert('Incoreto');
     }
