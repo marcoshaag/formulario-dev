@@ -10,3 +10,4 @@ function cadastro(){
         alert('Incoreto');
     }
 }
+
