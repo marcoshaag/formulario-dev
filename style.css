@@ -2,8 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --cor-principal:azure;
+}
 body{
-    background-color:azure;
+    background-color:var(--cor-principal);
+    box-sizing: border-box  ;
 }
 
 .title{
@@ -41,20 +46,20 @@ body{
 }
 
 .caixa-texto input{
-    background-color: azure;
+    background-color: var(--cor-principal);
     border: none;
     padding: 10px;
     border-radius: 15px;
 }
 
 .caixa-texto select{
-    background-color: azure;
+    background-color: var(--cor-principal);
     border-radius: 15px;
     padding: 5px;
     margin-right: 70%;
 }
 
-.botao{
+button{
     margin-top: 10px;
     padding: 1vh;
     border-radius: 20px;

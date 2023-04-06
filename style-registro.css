@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: azure;
+}
+
+header{
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+h1{
+    text-align: center;
+}
