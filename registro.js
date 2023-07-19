@@ -1,10 +1,10 @@
 function cadastro(){
     
-    var login = document.getElementById('email').value;
-    var nome = document.getElementById('name').value;
+    const login = document.getElementById('email').value;
+    const nome = document.getElementById('name').value;
+    const validEmail = /\S+@\S+\.\S+/.test(login);
 
-
-    if(login.length > 1 && nome.length > 1){
+    if(validEmail && nome.length > 1){
         alert('Sucesso');
         location.href= "./tela-registro.html";
     }else{
