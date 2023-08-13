@@ -4,7 +4,7 @@
 }
 
 :root{
-    --cor-principal:azure;
+    --cor-principal:#F5F5F5;
 }
 body{
     background-color:var(--cor-principal);
@@ -20,8 +20,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #333333;
+    font-weight: bold;
 }
-.teste{
+.title-cadastro{
     padding: 10px;
 }
 
@@ -31,42 +33,50 @@ body{
     align-items: center;
 }
 .caixa-texto{
-    background-color: aquamarine;
+    background-color: #FFFFFF;
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 30px;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .caixa-texto label{
-    margin-bottom: 0.2em;
+    margin: 5px 0px;
     font-size:medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .caixa-texto input{
     background-color: var(--cor-principal);
-    border: none;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
+    border-color: #7c7b7b;
 }
 
 .caixa-texto select{
     background-color: var(--cor-principal);
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 5px;
     margin-right: 70%;
+    border-color: #7c7b7b;
 }
 
 button{
     margin-top: 10px;
-    padding: 1vh;
-    border-radius: 20px;
-    border-color:cadetblue;
-    border-style:double;
-    background-color:aquamarine;
-    font-family: 'Times New Roman', Times, serif;
-    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #02a002;
+    font-family: Arial;
+    font-weight: 400;
+    border: none;
+    width: 150px;
     
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+    margin: 5px 0;
 }
