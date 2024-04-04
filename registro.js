@@ -5,7 +5,7 @@ function cadastro(){
     const validEmail = /\S+@\S+\.\S+/.test(login);
 
     if(validEmail && nome.length > 1){
-        alert('Sucesso');
+        alert('Cadastrado com Sucesso');
         location.href= "./tela-registro.html";
     }else{
         alert('Incoreto');
